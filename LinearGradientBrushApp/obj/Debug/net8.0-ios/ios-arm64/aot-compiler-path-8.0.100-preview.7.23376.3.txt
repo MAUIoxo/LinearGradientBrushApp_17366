@@ -1,0 +1,1 @@
+\Users\roman\Library\Caches\Xamarin\XMA\SDKs\dotnet\packs\Microsoft.NETCore.App.Runtime.AOT.osx-x64.Cross.ios-arm64\8.0.0-preview.7.23375.6\Sdk\..\tools\mono-aot-cross

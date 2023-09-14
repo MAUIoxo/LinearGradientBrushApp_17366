@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LinearGradientBrushApp.Pages.Views.BackgroundImageView">
+
+
+    <Grid RowDefinitions="Auto">
+
+        <!-- BackgroundImage and LinearGradient -->
+        <Image x:Name="BackgroundImage" Grid.Row="0"  Source="radiant_gradient.png" Aspect="AspectFill" />
+        <Grid BackgroundColor="Transparent"  Grid.Row="0">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="Transparent" Offset="0.1" />
+                    <GradientStop Color="White" Offset="1.0" />
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
+        
+    </Grid>
+    
+</ContentView>

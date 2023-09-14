@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:LinearGradientBrushApp.Pages.Views"
+             xmlns:viewModels="clr-namespace:LinearGradientBrushApp.ViewModels"
+             x:DataType="viewModels:View1ViewModel"
+             x:Class="LinearGradientBrushApp.Pages.Views.View1">
+
+    <Grid RowDefinitions="Auto">
+
+        <!--Just a Background Image and a LinearGradient-->
+        <views:BackgroundImageView x:Name="BackgroundImage" VerticalOptions="Start"/>
+
+        <Label Text="BackgroundImage with LinearGradientBrush displayed correct on Android"/>
+
+    </Grid>
+
+
+</ContentView>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="LinearGradientBrushApp.app/LinearGradientBrushApp">
+      <BCSymbolMapName>LinearGradientBrushApp.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>false</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>false</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>LinearGradientBrushApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>\Users\roman\Library\Caches\Xamarin\mtbs\builds\LinearGradientBrushApp\444ddcf84fd13f39cc863a8de9013337ff2f1d16746cd8f96c9312c535f778fb\obj\Debug\net8.0-ios\ios-arm64\mtouch-symbols.list</SymbolFile>
+      <DSymName>LinearGradientBrushApp.app.dSYM</DSymName>
+      <SourceProjectPath>C:\Users\roman\Desktop\NeuerOrdner\2\LinearGradientBrushApp\LinearGradientBrushApp</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
